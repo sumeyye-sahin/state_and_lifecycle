@@ -11,7 +11,7 @@ function App() {
 
   return(
     <View>
-      <Text> helllo</Text>
+      <Text> useState and useEffect exercise</Text>
       <Button title='push' onPress={isShow} />
       {show && <Control/>}
 
